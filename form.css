@@ -1,0 +1,127 @@
+.bus-ticket-block {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .txtform{
+    margin-top: 10% !important;
+    text-align: center;
+    color: rgb(227 219 206);
+    font-size: 2em;
+    padding-bottom: 5%;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .bus-ticket-block h2 {
+    font-family: 'Assistant', sans-serif;
+    padding: 6px;
+    font-size: xx-large;
+    
+}
+  .bus-ticket-block form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bus-ticket-block label {
+    margin-bottom: 5px;
+  }
+  
+  .bus-ticket-block input[type="text"],
+  .bus-ticket-block input[type="date"],
+  .bus-ticket-block input[type="number"],
+  .bus-ticket-block select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .bus-ticket-block select {
+    appearance: none;
+    -webkit-appearance: none;
+    background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8'><path d='M1 3.5L4 6.5L7 3.5' stroke='black' fill='none'/></svg>") no-repeat right center/10%;
+    background-color: white !important; 
+}
+  
+  .bus-ticket-block input[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .bus-ticket-block input[type="submit"]:hover {
+    background-color: #0069d9;
+ }
+ /* pdf */
+ .piece{
+    background-color: #fff;
+    height: 600px;
+    width: 800px;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .logo img{
+    width: 180px;
+    
+  }
+  .logo p{
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  h1{
+    text-align: center;
+    margin: 25px 0;
+  }
+  .elements{
+    margin-left:25px ;
+  }
+  .elements p{
+    margin: 25px 0;
+    font-size: 25px;
+  }
+  .certification{
+    position: absolute;
+    right: 20px;
+    text-align: center;
+  }
+  .certification img{
+    width: 100px;
+    border-radius: 50%;
+  }
+  .certification p{
+    font-size: 35px;
+  }
+  .generateurBtn {
+    display: flex;
+  }
+  
+  .generateurBtn button{
+    padding: 10px 30px;
+  }
+  .generateurBtn a{
+    text-align: center;
+    text-decoration: 0;
+    padding: 10px 30px;
+    margin-left: 20px;
+  }
+  .piece{
+    overflow-x: hidden;
+    height: 100%;
+    /* background-image: url("image/logo6-removebg-preview.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
